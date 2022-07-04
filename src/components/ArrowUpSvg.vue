@@ -1,12 +1,10 @@
 <script setup>
-
 const props = defineProps({
   fillColour: {
     type: String,
-    default: '#343A40'
-  }
-})
-
+    default: '#343A40',
+  },
+});
 </script>
 
 <template>

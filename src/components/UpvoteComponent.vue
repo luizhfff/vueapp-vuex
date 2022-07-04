@@ -8,7 +8,7 @@ const store = useStore();
 
 <template>
   <h1>Upvote</h1>
-  <div class="instructions">Click on the plus icon to add an element and click on the elements to change its state</div>
+  <div class="instructions">Click on the plus icon to add an element and click on the element to change its state</div>
   <div class="upvoteContainer">
     <div class="upvotes" @click="store.dispatch('upvoteToggleSelection')">
       <div class="items" v-for="numOfVotes in store.getters.getNumOfVotes" :key="numOfVotes">
